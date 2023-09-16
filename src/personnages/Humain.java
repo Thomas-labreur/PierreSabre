@@ -53,7 +53,7 @@ public class Humain {
 		argent += gain;
 	}
 	
-	private void memoriser(Humain humain) {
+	protected void memoriser(Humain humain) {
 		boolean pasConnu=true;
 		int i = 0;
 		while(i < nbConnaissance && pasConnu) {
@@ -73,7 +73,7 @@ public class Humain {
 		}
 	}
 	
-	private void repondre(Humain humain) {
+	protected void repondre(Humain humain) {
 		direBonjour();
 		memoriser(humain);
 	}
