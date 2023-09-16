@@ -94,5 +94,9 @@ public class Humain {
 		}
 		parler("Je connais beaucoup de monde dont : " + connaissances.toString());
 	}
+
+	public void boire(String boisson) {
+	}
+
 }
 
